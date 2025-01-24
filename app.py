@@ -48,7 +48,7 @@ def read_root():
         </style>
     </head>
     <body>
-        <h1>Hello, This is the Backend Application!</h1>
+        <h1>Hello, This is the Backend Python Application!</h1>
         <p>FastAPI is running smoothly 🚀</p>
         <footer>
             <p>Visit <a href="https://fastapi.tiangolo.com" target="_blank">FastAPI Documentation</a></p>
