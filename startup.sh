@@ -8,4 +8,4 @@ apt-get update
 ACCEPT_EULA=Y apt-get install -y msodbcsql17
 
 # Start the application
-gunicorn --bind=0.0.0.0 --timeout 600 app:app
+uvicorn main:app --host 0.0.0.0 --port 8000
