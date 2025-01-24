@@ -8,4 +8,4 @@
 # ACCEPT_EULA=Y apt-get install -y msodbcsql17
 
 # Start the application
-uvicorn main:app --host 0.0.0.0 --port 80
+uvicorn app:app --host 0.0.0.0 --port 80
